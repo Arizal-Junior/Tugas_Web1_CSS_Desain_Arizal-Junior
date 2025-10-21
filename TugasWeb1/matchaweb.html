@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matcha Lovers - Minuman Segar Alami</title>
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+
+  <style>
+body {
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  overflow-x: hidden;
+  background: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('gambar/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(6px);
+  transform: scale(1.05);
+  z-index: -1;
+  opacity: 0.85;
+}
+
+header {
+  background: linear-gradient(90deg, #f9cdd5 0%, #fdf1f3 100%);
+  border-bottom: 3px solid #ffffff;
+}
+
+header p.text-muted {
+  color: #3a773a !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.navbar .nav-link {
+  color: #225d22 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #6abf69 !important;
+  text-shadow: 0 0 5px rgba(255,255,255,0.5);
+  transition: 0.2s ease;
+}
+
+h1 {
+  background: linear-gradient(90deg, #225d22, #6abf69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  transition: all 0.35s ease;
+  backdrop-filter: blur(3px);
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-title {
+  color: #225d22;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #2e4a2e;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  min-height: 80px;
+}
+
+.btn-matcha {
+  background-color: #225d22;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.btn-matcha:hover {
+  background-color: #6abf69;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+footer {
+  background: linear-gradient(180deg, #225d22 0%, #143d14 100%);
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+  </style>
+</head>
+
+<body>
+  <header class="py-4">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div>
+        <h1 class="mb-1">Matcha Lovers</h1>
+        <p class="mb-0 text-muted">Natural Freshness in Every Sip ⋆˙⟡</p>
+      </div>
+
+      <nav class="navbar navbar-expand-lg mt-3 mt-lg-0">
+        <div class="container-fluid p-0">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About Matcha ♡</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2>Matcha Strawberry ⋆ 𐙚 ̊.</h2>
+          <p class="lead">
+            Experience the smooth and refreshing sensation of Matcha Strawberry —
+            the perfect combination of premium green tea aroma and the freshness of selected strawberries.
+            Each sip delivers a balance between creamy matcha flavor and the natural sweetness of fruit.
+          </p>
+          <p>
+            Perfect to enjoy anytime — in the morning for energy, in the afternoon for relaxation.
+            Whether served cold or warm, each sip brings a sense of natural calm.
+          </p>
+          <a href="#" class="btn btn-matcha mt-2">Order Now! ♡</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="gambar/matchatransparan.png" alt="Gelas Matcha Segar" class="img-fluid rounded-4">
+        </div>
+      </div>
+
+      <div class="row mt-5 g-4">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">What Is Matcha?</h5>
+              <p class="card-text">
+                Matcha is a finely ground green tea powder from Japan made from Camellia sinensis leaves.
+                It is specially processed to produce a vibrant green color, a delicate aroma, and a calming taste.
+              </p>
+              <a href="#" class="btn btn-matcha">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">About Us ♡</h5>
+              <p class="card-text">
+                Matcha Lovers is here to introduce matcha-based drinks that are not only delicious but also healthy.
+                We bring the concept of “natural freshness in every sip.”
+              </p>
+              <a href="#" class="btn btn-matcha">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 g-4">
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <img src="gambar/matchalatte.png" alt="Matcha Latte">
+            <div class="card-body">
+              <h5 class="card-title">Matcha Latte ♡</h5>
+              <p class="card-text">
+                A classic flavor combining premium matcha and smooth milk.
+                It offers a calming sensation and is perfect to enjoy in any moment.
+              </p>
+              <a href="#" class="btn btn-matcha mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <img src="gambar/icedmatcha.png" alt="Iced Matcha">
+            <div class="card-body">
+              <h5 class="card-title">Iced Matcha ♡</h5>
+              <p class="card-text">
+                The perfect freshness of chilled matcha and crystal ice.
+                It refreshes the body while helping you stay focused amid a busy day.
+              </p>
+              <a href="#" class="btn btn-matcha mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="card w-100">
+            <img src="gambar/matchastrawberry.png" alt="Matcha Strawberry">
+            <div class="card-body">
+              <h5 class="card-title">Matcha Strawberry ♡</h5>
+              <p class="card-text">
+                A unique combination of matcha’s earthy aroma and the gentle sweetness of strawberries.
+                Each sip delivers a refreshing and soothing harmony of flavors.
+              </p>
+              <a href="#" class="btn btn-matcha mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-3 mt-5">
+    <div class="container">
+      <small>&copy; 2025 Matcha Lovers — Natural Freshness Every Day</small>
+    </div>
+  </footer>
+
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
